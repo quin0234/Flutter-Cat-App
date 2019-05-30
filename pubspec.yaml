@@ -1,0 +1,24 @@
+name: flutter_app_cats
+description: Something about Cats.
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  font_awesome_flutter: 8.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Bitter
+      fonts:
+        - asset: fonts/Bitter-Bold.ttf
+        - asset: fonts/Bitter-Regular.ttf
+  assets:
+    - assets/cats.json
+    - images/profile_header_background.png
